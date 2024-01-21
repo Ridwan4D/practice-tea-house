@@ -9,6 +9,8 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <!-- tailwind css link -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome icon link -->
+    <script src="https://kit.fontawesome.com/d01f881c33.js" crossorigin="anonymous"></script>
     <!-- custom css link -->
     <link rel="stylesheet" href="css/style.css">
     <script>
@@ -17,7 +19,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
-                        'sm-color': '#d4d4d8',
+                        'sm-color': '#71717a',
                     }
                 }
             }
@@ -27,12 +29,34 @@
 
 <body class="font-manrope">
     <!-- header section -->
-    <header>
-
+    <header class="md:container mx-auto px-3 md:px-10">
+        <div class="hero">
+            <div class="hero-content flex-col lg:flex-row">
+                <div class="justify-center">
+                    <h1 class="text-3xl md:text-5xl lg:text-7xl font-extrabold text-black">
+                        It's good <br>
+                        tea time at The <br>
+                        Tea House</h1>
+                    <p class="py-6 text-sm-color text-base md:text-lg font-medium">Tea and Botanical Solutions Supplier Give Optimum
+                        Satisfaction To Your Taste Buds.</p>
+                    <button class="btn btn-primary">Get Started</button>
+                </div>
+                <div>
+                    <img src="images/banner.png" class="w-full md:w-full max-w-sm" />
+                    <div class="flex items-center gap-2 rounded-xl drop-shadow-lg bg-white p-5 h-auto w-full md:w-56 lg:-mt-20">
+                        <i class="fa-solid fa-star md:text-3xl text-amber-300"></i>
+                        <div>
+                            <h3 class="lg:text-3xl font-extrabold">5.00</h3>
+                            <p class="text-base font-semibold text-sm-color">Trust Pilot Ratings</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
 
     <!-- main section -->
-    <main>
+    <main class="md:container mx-auto px-3 md:px-10">
 
     </main>
 
