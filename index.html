@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,8 +11,21 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- custom css link -->
     <link rel="stylesheet" href="css/style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'sm-color': '#d4d4d8',
+                    }
+                }
+            }
+        }
+    </script>
 </head>
-<body>
+
+<body class="font-manrope">
     <!-- header section -->
     <header>
 
@@ -27,4 +41,5 @@
 
     </footer>
 </body>
+
 </html>
